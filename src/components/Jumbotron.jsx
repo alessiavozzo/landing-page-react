@@ -3,7 +3,7 @@ import './css/Jumbotron.css';
 
 function Jumbotron() {
     return (
-        <section id="jumbotron" className='pt-5 pb-xl-5'>
+        <section id="jumbotron" className='pt-5'>
             <Container fluid="xl" className='d-flex flex-column flex-xl-row align-items-xl-center gap-xl-5 h-100'>
                 <div className="text-circus w-100 w-xl-50">
                     <h1 className='py-2'>

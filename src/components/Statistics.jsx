@@ -9,7 +9,7 @@ function Statistics() {
                 <Row className='g-4'>
                     {statistics.map(statistic => (
                         <Col key={statistic.id} className='col-12 col-xl-3'>
-                            <Card className='stat-card p-5 rounded-4 border-0 h-100'>
+                            <Card className='stat-card p-5 py-xl-4 rounded-4 border-0 h-100'>
                                 <Card.Title className='quantity'>{statistic.quantity}</Card.Title>
                                 <Card.Text className='statistic-text'>
                                     {statistic.text}
