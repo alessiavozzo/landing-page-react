@@ -12,6 +12,10 @@
         padding: 0.7rem 1.5rem;
     }
 
+    .card:hover {
+        cursor: pointer;
+    }
+
     .category-icon {
         svg {
             width: 50px;
