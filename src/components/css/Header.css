@@ -1,28 +1,33 @@
-header {
-    .top-banner {
-        background-color: var(--circus-primary);
+.top-banner {
+    background-color: var(--circus-primary);
+    color: var(--circus-lighter);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+
+    .register {
         color: var(--circus-lighter);
-        text-align: center;
-        padding: 0.5rem 0;
-        font-size: 0.8rem;
+    }
+}
 
-        .register {
-            color: var(--circus-lighter);
-        }
+#offcanvasNavbar {
+    width: 100vw !important;
+}
+
+.icons {
+    svg {
+        width: 20px;
     }
 
-    #offcanvasNavbar {
-        width: 100vw !important;
+    @media (min-width: 992px) {
+        width: auto !important;
     }
+}
 
-    .icons {
-        svg {
-            width: 20px;
-        }
-
-        @media (min-width: 992px) {
-            width: auto !important;
-        }
+.menu-option {
+    @media (min-width: 992px) {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.9rem;
     }
-
 }

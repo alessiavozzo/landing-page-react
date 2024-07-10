@@ -51,16 +51,16 @@ function Header() {
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="justify-content-end justify-content-lg-center flex-grow-1 pe-3">
-                                <Nav.Link href="#" tabIndex={0} >Home</Nav.Link>
-                                <NavDropdown title="Corsi" id="courses-dropdown">
+                            <Nav className="justify-content-end justify-content-lg-center flex-grow-1 pe-3 gap-3">
+                                <Nav.Link href="#" tabIndex={0} className='menu-option'>Home</Nav.Link>
+                                <NavDropdown title="Corsi" id="courses-dropdown" className='menu-option'>
                                     {courses.map(course => (
                                         <NavDropdown.Item key={course.id} href={course.href}>{course.title}</NavDropdown.Item>
                                     ))}
                                 </NavDropdown>
-                                <Nav.Link href="#" tabIndex={0}>Eventi</Nav.Link>
-                                <Nav.Link href="#" tabIndex={0}>Contatti</Nav.Link>
-                                <Nav.Link href="#" tabIndex={0}>Registrati</Nav.Link>
+                                <Nav.Link href="#" tabIndex={0} className='menu-option'>Eventi</Nav.Link>
+                                <Nav.Link href="#" tabIndex={0} className='menu-option'>Contatti</Nav.Link>
+                                <Nav.Link href="#" tabIndex={0} className='menu-option'>Registrati</Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
