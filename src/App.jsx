@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Header from './components/Header.jsx';
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Card } from 'react-bootstrap';
 import './App.css';
 
@@ -7,9 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>ciao</h1>
-      </div>
+      <Header />
     </>
   )
 }
