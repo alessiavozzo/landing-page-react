@@ -1,7 +1,9 @@
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import courses from '../assets/js/courses';
 import './css/Header.css';
 
 function Header() {
+    /* console.log(courses); */
     return (
         <header>
             {/* orange topbar */}
@@ -22,10 +24,9 @@ function Header() {
                         <Nav className="me-auto">
                             <Nav.Link href="#" tabIndex={0} >Home</Nav.Link>
                             <NavDropdown title="Corsi" id="courses-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
+                                {courses.map(course => (
+                                    <NavDropdown.Item key={course.id} href={course.href}>{course.title}</NavDropdown.Item>
+                                ))}
                             </NavDropdown>
                             <Nav.Link href="#" tabIndex={0}>Eventi</Nav.Link>
                             <Nav.Link href="#" tabIndex={0}>Contatti</Nav.Link>
