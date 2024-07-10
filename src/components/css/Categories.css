@@ -1,0 +1,14 @@
+#categories {
+    .pick {
+        color: var(--circus-primary);
+        font-size: 0.8rem;
+    }
+
+    .see-all-btn {
+        background-color: var(--circus-success);
+        color: var(--circus-lighter);
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+    }
+}
