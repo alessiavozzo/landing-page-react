@@ -1,0 +1,21 @@
+#statistics {
+
+    .stat-card {
+        box-shadow: 0 0 8px 3px var(--circus-grey-bg);
+
+        .quantity {
+            color: var(--circus-primary);
+            font-weight: 900;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .statistic-text {
+            font-weight: 800;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+    }
+
+}

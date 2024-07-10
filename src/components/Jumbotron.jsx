@@ -3,9 +3,9 @@ import './css/Jumbotron.css';
 
 function Jumbotron() {
     return (
-        <section id="jumbotron" className='pt-5 pb-lg-5'>
-            <Container fluid="lg" className='d-flex flex-column flex-lg-row align-items-lg-center gap-lg-5 h-100'>
-                <div className="text-circus w-100 w-lg-50">
+        <section id="jumbotron" className='pt-5 pb-xl-5'>
+            <Container fluid="xl" className='d-flex flex-column flex-xl-row align-items-xl-center gap-xl-5 h-100'>
+                <div className="text-circus w-100 w-xl-50">
                     <h1 className='py-2'>
                         Codecircus
                     </h1>
@@ -29,7 +29,7 @@ function Jumbotron() {
                     </form>
                 </div>
 
-                <div className="image w-100 w-lg-50">
+                <div className="image w-100 w-xl-50">
                     <img src="/img/billboard-img.png" alt="clown dressed in rainbow clothes sitting in front of a computer" />
                 </div>
             </Container>
