@@ -1,4 +1,4 @@
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
 import courses from '../assets/js/courses';
 import './css/Header.css';
 
@@ -19,7 +19,7 @@ function Header() {
                         <img src="/img/logo.png" alt="code circus green logo" tabIndex={0} />
                     </Navbar.Brand>
 
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#" tabIndex={0} >Home</Nav.Link>
@@ -33,7 +33,31 @@ function Header() {
                             <Nav.Link href="#" tabIndex={0}>Registrati</Nav.Link>
                         </Nav>
 
-                    </Navbar.Collapse>
+                    </Navbar.Collapse> */}
+
+                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Offcanvas
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                        placement="end"
+                    >
+                        <Offcanvas.Header closeButton>
+
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <Nav.Link href="#" tabIndex={0} >Home</Nav.Link>
+                                <NavDropdown title="Corsi" id="courses-dropdown">
+                                    {courses.map(course => (
+                                        <NavDropdown.Item key={course.id} href={course.href}>{course.title}</NavDropdown.Item>
+                                    ))}
+                                </NavDropdown>
+                                <Nav.Link href="#" tabIndex={0}>Eventi</Nav.Link>
+                                <Nav.Link href="#" tabIndex={0}>Contatti</Nav.Link>
+                                <Nav.Link href="#" tabIndex={0}>Registrati</Nav.Link>
+                            </Nav>
+                        </Offcanvas.Body>
+                    </Navbar.Offcanvas>
                 </Navbar>
             </Container>
         </header>

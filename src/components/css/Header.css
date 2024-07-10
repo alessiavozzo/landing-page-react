@@ -9,3 +9,7 @@
         color: var(--circus-lighter);
     }
 }
+
+#offcanvasNavbar {
+    width: 100vw !important;
+}
