@@ -5,7 +5,7 @@ import './css/Statistics.css';
 function Statistics() {
     return (
         <section id="statistics" className='py-5'>
-            <Container fluid="xl" className='px-4'>
+            <Container fluid="xl" className='px-4 px-xl-0'>
                 <Row className='g-4'>
                     {statistics.map(statistic => (
                         <Col key={statistic.id} className='col-12 col-xl-3'>
