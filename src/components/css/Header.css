@@ -1,0 +1,11 @@
+.top-banner {
+    background-color: var(--circus-primary);
+    color: var(--circus-lighter);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+
+    .register {
+        color: var(--circus-lighter);
+    }
+}
