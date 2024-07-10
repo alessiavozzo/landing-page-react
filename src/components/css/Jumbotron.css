@@ -1,0 +1,43 @@
+#jumbotron {
+    background-image: url('/img/billboard-bg.png');
+    height: 680px;
+
+    .text-circus {
+        h1 {
+            text-transform: uppercase;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+
+        .group {
+            background-color: var(--circus-lighter);
+
+            .input_search {
+                border: none;
+            }
+
+            .search-btn {
+                margin: 0.3rem;
+                padding: 0.5rem 0.7rem;
+                background-color: var(--circus-success);
+                color: var(--circus-lighter);
+                border: none;
+
+                svg {
+                    width: 20px;
+                }
+            }
+        }
+    }
+
+    .image {
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}

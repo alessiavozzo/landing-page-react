@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Header from './components/Header.jsx';
-import { Container, Navbar, Nav, NavDropdown, Offcanvas, Card } from 'react-bootstrap';
+import Jumbotron from './components/Jumbotron.jsx';
 import './App.css';
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
   return (
     <>
       <Header />
+      <main>
+        <Jumbotron />
+      </main>
     </>
   )
 }
