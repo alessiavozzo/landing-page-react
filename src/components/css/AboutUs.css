@@ -19,7 +19,7 @@
         }
     }
 
-    .icon {
+    .check-icon {
         color: var(--circus-primary);
 
         svg {

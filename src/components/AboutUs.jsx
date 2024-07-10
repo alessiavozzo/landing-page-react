@@ -22,36 +22,36 @@ function AboutUs() {
 
                     {/* list */}
                     <ul className='list-unstyled mb-4'>
-                        <li className='d-flex gap-3 align-items-start'>
-                            <div className="icon">
+                        <li className='d-flex gap-3 align-items-start mb-3'>
+                            <div className="check-icon">
                                 <svg id="tick-circle" aria-label="orange circle with a white check" viewBox="0 0 15 15">
-                                    <path fill="currentColor" fill-rule="evenodd"
+                                    <path fill="currentColor" fillRule="evenodd"
                                         d="M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.072 3.21l4.318-5.398l-.78-.624l-3.682 4.601L4.32 7.116l-.64.768z"
-                                        clip-rule="evenodd" />
+                                        clipRule="evenodd" />
                                 </svg>
                             </div>
                             <div className="list_item">
                                 Esperti di programmazione che rendono ogni lezione uno spettacolo creativo.
                             </div>
                         </li>
-                        <li className='d-flex gap-3 align-items-start'>
-                            <div className="icon">
+                        <li className='d-flex gap-3 align-items-start mb-3'>
+                            <div className="check-icon">
                                 <svg id="tick-circle" aria-label="orange circle with a white check" viewBox="0 0 15 15">
-                                    <path fill="currentColor" fill-rule="evenodd"
+                                    <path fill="currentColor" fillRule="evenodd"
                                         d="M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.072 3.21l4.318-5.398l-.78-.624l-3.682 4.601L4.32 7.116l-.64.768z"
-                                        clip-rule="evenodd" />
+                                        clipRule="evenodd" />
                                 </svg>
                             </div>
                             <div className="list_item">
                                 Corsi divertenti e coinvolgenti che trasformano l'apprendimento in un'avventura.
                             </div>
                         </li>
-                        <li className='d-flex gap-3 align-items-start'>
-                            <div className="icon">
+                        <li className='d-flex gap-3 align-items-start mb-3'>
+                            <div className="check-icon">
                                 <svg id="tick-circle" aria-label="orange circle with a white check" viewBox="0 0 15 15">
-                                    <path fill="currentColor" fill-rule="evenodd"
+                                    <path fill="currentColor" fillRule="evenodd"
                                         d="M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.072 3.21l4.318-5.398l-.78-.624l-3.682 4.601L4.32 7.116l-.64.768z"
-                                        clip-rule="evenodd" />
+                                        clipRule="evenodd" />
                                 </svg>
                             </div>
                             <div className="list_item">
@@ -60,7 +60,7 @@ function AboutUs() {
                         </li>
                     </ul>
 
-                    <a href="#" className='btn find-btn rounded-5'>Scopri di più</a>
+                    <a href="#" className='btn find-btn rounded-5' aria-label="Scopri di più">Scopri di più</a>
                 </div>
 
             </Container>
