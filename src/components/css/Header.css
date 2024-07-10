@@ -29,5 +29,9 @@
         text-transform: uppercase;
         font-weight: 600;
         font-size: 0.9rem;
+
+        .course-option {
+            text-transform: capitalize;
+        }
     }
 }
