@@ -1,11 +1,10 @@
 #jumbotron {
     background-image: url('/img/billboard-bg.png');
-    height: 680px;
 
     .text-circus {
         h1 {
             text-transform: uppercase;
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
 
         p {
