@@ -4,6 +4,8 @@ import Jumbotron from './components/Jumbotron.jsx';
 import Statistics from './components/Statistics.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Categories from './components/Categories.jsx';
+import Courses from './components/Courses.jsx';
+
 import './App.css';
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Statistics />
         <AboutUs />
         <Categories />
+        <Courses />
       </main>
     </>
   )

@@ -1,0 +1,59 @@
+#courses {
+    .some-courses {
+        color: var(--circus-primary);
+        font-size: 0.8rem;
+    }
+
+    .course-card {
+        border: none;
+        box-shadow: 0 0 8px 2px var(--circus-grey-bg);
+        position: relative;
+
+        .badge {
+            background-color: var(--circus-primary);
+            color: var(--circus-lighter);
+            font-weight: 600;
+            font-size: 0.8rem;
+            position: absolute;
+            top: 1.5rem;
+            left: 1.5rem;
+        }
+
+        .info {
+            text-transform: uppercase;
+            color: var(--circus-grey);
+            font-weight: 600;
+
+            svg {
+                width: 20px;
+            }
+        }
+
+        h5 {
+            font-weight: 800;
+        }
+
+        .author {
+            font-weight: 600;
+            color: var(--circus-grey);
+        }
+
+        .rating {
+            color: var(--circus-success);
+
+            svg {
+                fill: currentColor;
+                width: 15px;
+            }
+        }
+    }
+
+    .btn-see-all {
+        background-color: var(--circus-success);
+        color: var(--circus-lighter);
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+    }
+
+}

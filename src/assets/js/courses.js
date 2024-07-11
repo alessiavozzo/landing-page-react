@@ -5,6 +5,7 @@ const courses = [
         type: 'Artigianato',
         hours: '1H 50M',
         img: 'item1.jpg',
+        alt: 'black and white image with various origami',
         author: 'Pino la Lavatrice',
         stars: 5,
         badge: 'Nuovo',
@@ -16,6 +17,7 @@ const courses = [
         type: 'Storia',
         hours: '1H 50M',
         img: 'item2.jpg',
+        alt: 'black and white image representing some mages casting spells',
         author: 'William Gibson',
         stars: 5,
         badge: 'Gratis',
@@ -27,6 +29,7 @@ const courses = [
         type: 'Artigianato',
         hours: '1H 50M',
         img: 'item3.jpg',
+        alt: 'some cats writing code and staring at computers',
         author: 'Miao Miao',
         stars: 5,
         href: '#'
@@ -37,6 +40,7 @@ const courses = [
         type: 'Coding',
         hours: '1H 50M',
         img: 'item4.jpg',
+        alt: 'Green robot giving compliments through speech bubbles',
         author: 'James Lonely',
         stars: 5,
         href: '#'
@@ -47,6 +51,7 @@ const courses = [
         type: 'Storia',
         hours: '1H 50M',
         img: 'item5.jpg',
+        alt: 'Roman statue in cyberpunk world',
         author: 'Dante Alighieri',
         stars: 5,
         href: '#'
@@ -57,6 +62,7 @@ const courses = [
         type: 'Coding',
         hours: '1H 50M',
         img: 'item6.jpg',
+        alt: 'Clouds containing positive thinking phrases',
         author: 'Paperino',
         stars: 5,
         href: '#'
@@ -67,6 +73,7 @@ const courses = [
         type: 'Storia',
         hours: '1H 50M',
         img: 'item7.jpg',
+        alt: 'A man writing code on a computer using a pen',
         author: 'Ugo Foscolo',
         stars: 5,
         href: '#'
@@ -77,6 +84,7 @@ const courses = [
         type: 'Storia',
         hours: '1H 50M',
         img: 'item8.jpg',
+        alt: 'Labyrinth containing random letters',
         author: 'Jeff Bezos',
         stars: 5,
         badge: 'Sale',
