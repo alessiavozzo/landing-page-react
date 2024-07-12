@@ -5,6 +5,7 @@ import Statistics from './components/Statistics.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Categories from './components/Categories.jsx';
 import Courses from './components/Courses.jsx';
+import Feedbacks from './components/Feedbacks.jsx';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <AboutUs />
         <Categories />
         <Courses />
+        <Feedbacks />
       </main>
     </>
   )
