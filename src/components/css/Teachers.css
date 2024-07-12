@@ -3,4 +3,20 @@
         color: var(--circus-primary);
         font-size: 0.8rem;
     }
+
+    .card {
+        box-shadow: 0 0 8px 2px var(--circus-grey-bg);
+
+        .teacher_name {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .teacher_job {
+            text-align: center;
+            color: var(--circus-primary);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+    }
 }
