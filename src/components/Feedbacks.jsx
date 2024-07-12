@@ -24,11 +24,13 @@ function Feedbacks() {
                                 <Card className='p-4 border-0'>
                                     <Card.Body>
                                         <Card.Text>
-                                            "{feedback.text}"
+                                            <blockquote>
+                                                "{feedback.text}"
+                                            </blockquote>
                                         </Card.Text>
                                         <div className="author d-flex gap-3 align-items-center">
                                             <div className="image">
-                                                <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar picture`} />
+                                                <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar`} />
                                             </div>
                                             <div className="info">
                                                 <div className="name">{feedback.author}</div>
@@ -44,12 +46,13 @@ function Feedbacks() {
 
                 </div>
 
-                {<div className="mobile-feedbacks d-block d-xl-none">
+                {<div className="mobile-feedbacks d-block d-xl-none" aria-label="Carosello di recensioni con indicato l'autore delle recensioni">
                     <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={50}
                         slidesPerView={1}
                         pagination={{ clickable: true }}
+                        aria-label="Carosello di recensioni"
                     >
                         {feedbacks.map(feedback => (
                             <SwiperSlide key={feedback.id}>
@@ -60,7 +63,7 @@ function Feedbacks() {
                                         </Card.Text>
                                         <div className="author d-flex gap-4 align-items-center mb-4">
                                             <div className="image">
-                                                <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar picture`} />
+                                                <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar`} />
                                             </div>
                                             <div className="info">
                                                 <div className="name">{feedback.author}</div>

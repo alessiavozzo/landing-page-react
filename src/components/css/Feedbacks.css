@@ -4,6 +4,7 @@
 
     .student-feedbacks {
         color: var(--circus-primary);
+        font-size: 0.8rem;
     }
 
     .card {
