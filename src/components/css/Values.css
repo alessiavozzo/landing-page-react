@@ -1,0 +1,11 @@
+#values {
+    .added-values {
+        color: var(--circus-primary);
+        font-size: 0.8rem;
+    }
+
+    .check-icon {
+        width: 25px;
+        color: var(--circus-primary);
+    }
+}

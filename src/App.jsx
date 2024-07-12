@@ -7,6 +7,7 @@ import Categories from './components/Categories.jsx';
 import Courses from './components/Courses.jsx';
 import Feedbacks from './components/Feedbacks.jsx';
 import Teachers from './components/Teachers.jsx';
+import Values from './components/Values.jsx';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
         <Courses />
         <Feedbacks />
         <Teachers />
+        <Values />
       </main>
     </>
   )
