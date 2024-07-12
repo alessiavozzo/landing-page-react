@@ -25,7 +25,7 @@ function Courses() {
                 </Row>
 
                 <div className="button-container my-5 text-center">
-                    <a href="#" class="btn btn-see-all rounded-5" aria-label="Guarda tutti i corsi">
+                    <a href="#" className="btn btn-see-all rounded-5" aria-label="Guarda tutti i corsi">
                         Guarda tutto
                     </a>
                 </div>
