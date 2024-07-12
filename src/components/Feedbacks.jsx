@@ -23,11 +23,9 @@ function Feedbacks() {
                             <Col key={feedback.id} className="col-4">
                                 <Card className='p-4 border-0'>
                                     <Card.Body>
-                                        <Card.Text>
-                                            <blockquote>
-                                                "{feedback.text}"
-                                            </blockquote>
-                                        </Card.Text>
+                                        <blockquote>
+                                            "{feedback.text}"
+                                        </blockquote>
                                         <div className="author d-flex gap-3 align-items-center">
                                             <div className="image">
                                                 <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar`} />
@@ -58,9 +56,9 @@ function Feedbacks() {
                             <SwiperSlide key={feedback.id}>
                                 <Card className='p-3 border-0'>
                                     <Card.Body>
-                                        <Card.Text>
-                                            {feedback.text}
-                                        </Card.Text>
+                                        <blockquote>
+                                            "{feedback.text}"
+                                        </blockquote>
                                         <div className="author d-flex gap-4 align-items-center mb-4">
                                             <div className="image">
                                                 <img src={`/img/${feedback.img}`} alt={`${feedback.author} avatar`} />
