@@ -7,6 +7,31 @@
     .card {
         box-shadow: 0 0 8px 2px var(--circus-grey-bg);
 
+        .image {
+            position: relative;
+
+            .social-icons-container {
+                background-color: var(--circus-success);
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                a {
+                    text-decoration: none;
+                    color: var(--circus-lighter);
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    svg {
+                        width: 20px;
+                    }
+                }
+
+            }
+        }
+
         .teacher_name {
             text-align: center;
             font-size: 1.1rem;
@@ -17,6 +42,12 @@
             color: var(--circus-primary);
             font-size: 0.8rem;
             font-weight: 600;
+        }
+
+        &:hover {
+            .social-icons-container {
+                display: flex !important;
+            }
         }
     }
 }
