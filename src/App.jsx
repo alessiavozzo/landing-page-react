@@ -6,11 +6,11 @@ import AboutUs from './components/AboutUs.jsx';
 import Categories from './components/Categories.jsx';
 import Courses from './components/Courses.jsx';
 import Feedbacks from './components/Feedbacks.jsx';
+import Teachers from './components/Teachers.jsx';
 
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
         <Categories />
         <Courses />
         <Feedbacks />
+        <Teachers />
       </main>
     </>
   )
