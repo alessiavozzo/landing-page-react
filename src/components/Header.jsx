@@ -18,7 +18,7 @@ function Header() {
 
                     {/* logo */}
                     <Navbar.Brand href="#">
-                        <img src="/img/logo.png" alt="CodeCircus green logo" tabIndex={0} />
+                        <img src="/img/logo.png" alt="CodeCircus green logo" />
                     </Navbar.Brand>
 
                     {/* normal collapse navbar */}
