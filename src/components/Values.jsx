@@ -31,8 +31,8 @@ function Values() {
                 </h2>
 
                 <Row className='g-2'>
-                    {reasons.map(reason => (
-                        <Col xl={6} className='d-flex gap-3'>
+                    {reasons.map((reason, index) => (
+                        <Col xl={6} className='d-flex gap-3' key={index}>
                             <div className="check-icon">{checkIcon}</div>
                             <div className="reason-text">{reason}</div>
                         </Col>
