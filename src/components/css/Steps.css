@@ -16,40 +16,91 @@
     .step-card {
         border-top: none;
         box-shadow: 0px 4px 5px 1px var(--circus-grey-bg);
-        overflow: hidden;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border: none;
+
+        .step-title {
+            background-color: var(--circus-primary);
+            color: var(--circus-lighter);
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            position: relative;
+
+            .speech {
+                position: absolute;
+                width: 1rem;
+                height: 1rem;
+                background-color: black;
+                transform: rotate(45deg);
+                left: -0.5rem;
+                top: 35%;
+                background-color: var(--circus-primary);
+            }
+        }
+
+        .step-text {
+            font-size: 0.9rem;
+        }
+
+        .btn-action {
+            background-color: var(--circus-success);
+            color: var(--circus-lighter);
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
     }
 
-    .step-title {
-        background-color: var(--circus-primary);
-        color: var(--circus-lighter);
-    }
-
-    .step-text {
-        font-size: 0.9rem;
-    }
-
-    .btn-action {
-        background-color: var(--circus-success);
-        color: var(--circus-lighter);
-        text-transform: uppercase;
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
-    }
 
     .step-col {
         padding-left: 4rem;
+        position: relative;
+    }
+
+    .step-icon {
+        position: absolute;
+        top: 0;
+        left: -0.6rem;
+        padding: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: var(--circus-primary);
+        color: black;
+        z-index: 150;
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
     }
 
     .step-col.left {
         @media (min-width: 1200px) {
             padding: 0 4rem 0 0 !important;
+
+            .step-icon {
+                left: auto;
+                right: -1.4rem !important;
+            }
+
+            .speech {
+                left: auto;
+                right: -0.5rem;
+            }
         }
     }
 
     .step-col.right {
         @media (min-width: 1200px) {
             padding: 0 0 0 4rem !important;
+
+            .step-icon {
+                left: -1.4rem !important;
+            }
         }
     }
 
@@ -60,5 +111,7 @@
             margin: 0 0 0.5rem 1rem !important; */
         }
     }
+
+
 
 }
