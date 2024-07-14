@@ -1,0 +1,27 @@
+#newsletter {
+    background-color: var(--circus-warning-bg);
+    padding: 5rem 0;
+
+    .news-red {
+        color: var(--circus-primary);
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .email-input,
+    .btn-register {
+        border: none;
+        background-color: var(--circus-lighter);
+        text-align: center;
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 50px;
+        margin-top: 0.8rem;
+    }
+
+    .btn-register {
+        background-color: var(--circus-success);
+        color: var(--circus-lighter);
+        text-transform: uppercase;
+    }
+}

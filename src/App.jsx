@@ -9,6 +9,7 @@ import Feedbacks from './components/Feedbacks.jsx';
 import Teachers from './components/Teachers.jsx';
 import Values from './components/Values.jsx';
 import Steps from './components/Steps.jsx';
+import NewsletterBanner from './components/NewsletterBanner.jsx';
 
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
         <Teachers />
         <Values />
         <Steps />
+        <NewsletterBanner />
       </main>
     </>
   )
