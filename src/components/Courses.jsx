@@ -18,7 +18,9 @@ function Courses() {
                     {/* course cards - try passing props to child component*/}
                     {courses.map(course => (
                         <Col key={course.id} className='col-12 col-xl-3'>
-                            <SingleCourse course={course} />
+                            <a href="#" aria-label={`link to ${course.name}`} className='text-decoration-none'>
+                                <SingleCourse course={course} />
+                            </a>
                         </Col>
                     ))}
 
